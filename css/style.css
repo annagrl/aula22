@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/semanadevela.jpg);
+  background-size: cover;
+  background-color: rgba(70, 65, 65, 0.205);
+  background-blend-mode: overlay;
+}
+
+
+main {
+  text-align: center;
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 17px;
+  padding: 15px 150px;
+}
+
+header {
+  font-family: 'Shadows Into Light', cursive;
+  background-color: rgba(240, 240, 16, 0.555);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  position: static;
+
+}
+
+.lista {
+    font-size: 15px;
+    list-style: none;
+    padding: 20px;
+    text-align: justify;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.411);
+  }
+
+.video {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.img1 {
+  position: sticky;
+  padding-top: 15px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.img2 {
+  position: sticky;
+  padding-top: 15px;
+  width: 45px;
+}
+
+
+@media (min-width:813px){
+    iframe{ height: 500px}
+}
+
+@media (max-width:568px){
+    main{padding: 5px;
+        text-align:center;
+        padding-left: 0px; 
+        padding-right: 0px;
+       }
+    #redes{
+        display: inline-block;
+        margin-bottom:50px;
+    }
+}
+
+@media (max-width:812px){
+    main{padding: 5px;
+        text-align:center;
+        padding-left: 0px; 
+        padding-right: 0px;
+       }   
+    #redes{
+        display: inline-block;
+        margin-bottom:50px;
+}
+}
